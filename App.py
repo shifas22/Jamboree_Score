@@ -26,7 +26,7 @@ if page=='Admission Prediction':
         st.write(f'You Have {pred} Chance to Get thi Admission')
 
 else : 
-    st.write('The Jamboree Linear Regression dataset is designed to estimate the chances of graduate admission from an Indian perspective. It contains several features that can be used to predict the likelihood of a student's acceptance into a graduate program. Here's a breakdown of each feature:
+    st.write('''The Jamboree Linear Regression dataset is designed to estimate the chances of graduate admission from an Indian perspective. It contains several features that can be used to predict the likelihood of a student's acceptance into a graduate program. Here's a breakdown of each feature:
 
 Serial No.: A unique identifier for each record in the dataset.
 
@@ -46,5 +46,5 @@ Research: Indicates research experience; 1 if the applicant has research experie
 
 Chance of Admit: The probability of admission, ranging from 0 to 1.
 
-These features collectively provide a comprehensive profile of an applicant, which can be utilized to predict their chances of being admitted to a graduate program.')
+These features collectively provide a comprehensive profile of an applicant, which can be utilized to predict their chances of being admitted to a graduate program.''')
 
